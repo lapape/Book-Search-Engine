@@ -23,7 +23,7 @@ To use the app, visit [link to deployed app](https://dashboard.heroku.com/apps/r
 
 Click login or signup in the top right to create an account or login. Enter the name of a book in the search bar to view books from the google books API.When logged in, users can click a button under queried books to save the book, and view all saved books by clicking "see your books" in the top right.
 
-[gif of usage](./assets/budget-tracker.gif)
+[gif of usage](./assets/book-search-engine.gif)
 
 ## Credits
 

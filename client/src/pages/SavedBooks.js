@@ -6,7 +6,6 @@ import {
   Card,
   Button,
 } from "react-bootstrap";
-import { searchGoogleBooks } from "../utils/API";
 import { GET_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 import Auth from "../utils/auth";
@@ -28,7 +27,7 @@ const SavedBooks = () => {
 
     try {
       await removeBook({
-        variables: { bookId },
+        variables: { bookId: bookId },
       });
 
       if (error) {
